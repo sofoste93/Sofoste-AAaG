@@ -7,10 +7,15 @@ Welcome to ASCII Art and Anagram Generator, a fun, intuitive, and easy-to-use Py
 
 ## Key Features
 
+* ** * ![launch_green_theme.png](screenshots%2Flaunch_green_theme.png)
 * **ASCII Art Generation:** Transform any text into ASCII Art in a variety of styles, from the classic 'block' to the avant-garde 'lean'. Watch as your words take on a new form and come alive!
+* ![img.png](screenshots/Ascii_and_anagram.png)
 * **Anagram Creation:** Give your brain a workout with our Anagram Generator. Enter your choice of characters, choose the size and the number of anagrams you'd like to generate, and voilà! Uncover the hidden words and let the linguistic fun begin!
+* ![img.png](screenshots/anagram.png)
 * **Interactive GUI:** Featuring a user-friendly interface designed with Tkinter, it allows for easy navigation and offers a seamless experience, even for beginners.
+* ![img.png](screenshots/save_ascii.png)
 * **Theming Support:** Choose from a variety of built-in themes such as Dark Mode, Light Mode, Green Dark, and more, to match your aesthetic preference and make the application a visual treat!
+* ![img.png](screenshots/theme.png)
 
 ## How to Use
 
