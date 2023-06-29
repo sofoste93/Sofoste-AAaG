@@ -97,8 +97,9 @@ class App:
         self.ascii_art_frame.grid(row=3, column=0, columnspan=2, sticky='nsew')
 
         # Create Text widget and Scrollbar and put them in the frame
-        self.ascii_art_text = tk.Text(self.ascii_art_frame, width=100, height=30,
-                                      wrap='none')  # Increase the size of the ASCII art result area
+        self.ascii_art_text = tk.Text(self.ascii_art_frame, width=100, height=30, wrap='none')
+        # Increase the size of the ASCII art result area
+
         self.ascii_art_scrollbar = tk.Scrollbar(self.ascii_art_frame, orient='horizontal',
                                                 command=self.ascii_art_text.xview)
 
@@ -122,8 +123,7 @@ class App:
 
         # Create and place labels, entry field and spinboxes for Anagram frame
         ttk.Label(self.anagram_frame, text='Enter Characters:').grid(row=0, column=0, sticky='w')
-        ttk.Entry(self.anagram_frame, textvariable=self.chars_var, width=60).grid(row=0, column=1,
-                                                                                  sticky='ew')
+        ttk.Entry(self.anagram_frame, textvariable=self.chars_var, width=60).grid(row=0, column=1, sticky='ew')
         # Increase the width of the characters entry field
 
         ttk.Label(self.anagram_frame, text='Size of anagrams:').grid(row=1, column=0, sticky='w')
@@ -135,8 +135,8 @@ class App:
         # Create and place generate button and listbox for results
         ttk.Button(self.anagram_frame, text='Generate Anagrams', command=self.generate_anagrams).grid(row=3, column=0,
                                                                                                       columnspan=2)
-        self.anagrams_listbox = tk.Listbox(self.anagram_frame, width=100,
-                                           height=30)  # Increase the size of the anagram result area
+        self.anagrams_listbox = tk.Listbox(self.anagram_frame, width=100, height=30)
+        # Increase the size of the anagram result area
         self.anagrams_listbox.grid(row=4, column=0, columnspan=2, sticky='nsew')
 
         self.anagram_frame.grid_columnconfigure(1, weight=1)
